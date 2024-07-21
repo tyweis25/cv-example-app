@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: harness-cv-prom-example
-          image: {{.Values.image}}
+          image: tyweis/cv-example:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8082
